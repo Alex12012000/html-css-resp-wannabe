@@ -132,7 +132,7 @@ img {
 
 @media screen and (max-width: 768px) {
     .container {
-        width: 90%;
+        width: 80%;
         margin: 0 auto;
     }
  }
@@ -151,6 +151,10 @@ img {
         flex-wrap: wrap;
     }
 
+    .steps {
+        margin-bottom: 0;
+    }
+
     /* Why Us Section */
 
     .why-us .col-left, .why-us .col-right {
@@ -161,5 +165,10 @@ img {
         margin-bottom: 50px;
     }
 
+    .why-us {
+        background-color: #222222;
+        margin-bottom: 0;
+        padding-top: 3rem;
+    }
 
  }
